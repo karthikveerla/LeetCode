@@ -1,0 +1,29 @@
+Python:-
+class Solution(object):
+    def isAnagram(self, s, t):
+        """
+        :type s: str
+        :type t: str
+        :rtype: bool
+        """
+        t = list(t)
+        if len(s) != len(t):
+            return False
+        for i in s:
+            if i in t:
+                t.remove(i)
+                continue
+            else:
+                return False
+        return True
+Java:-
+
+class Solution {
+    public boolean isAnagram(String s, String t) {
+        char[] scharacters = s.toCharArray();
+        char[] tcharacters = t.toCharArray();
+        Arrays.sort(scharacters);
+        Arrays.sort(tcharacters);
+        return Arrays.equals(scharacters,tcharacters);
+    }
+}
