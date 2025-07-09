@@ -33,7 +33,7 @@ class Solution {
             sortedInput.add(n);
         }
         int longStreak = 0;
-        for(int n:nums){
+        for(int n:sortedInput){
             if(!sortedInput.contains(n-1)){
                 int cn = n;
                 int currentStreak = 1;
