@@ -2,6 +2,12 @@ package com.dsa.Sorting;
 
 import java.util.Arrays;
 
+// Use when:
+// - Interviewer asks
+// - You want to show left‑to‑right sorted region growth
+// - You want to demonstrate minimum‑element selection logic
+// Never used in real systems.
+
 public class SelectionSort {
     public static void main(String[] args) {
         int[] arr = new int[]{3,2,6,5,1,0,11,23,14,12};

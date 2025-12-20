@@ -2,8 +2,15 @@ package com.dsa.Sorting;
 
 import java.util.Arrays;
 
+// Use only when:
+// - Interviewer asks: “Explain Bubble Sort”
+// - You want to show understanding of adjacent swaps
+// - You want to demonstrate right‑to‑left sorting behavior
+// - Teaching beginners
+// Never used in real projects.
 
 //Time Complexity -O(n^2)
+
 public class BubbleSort {
     public static void main(String[] args) {
 
