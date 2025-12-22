@@ -1,7 +1,5 @@
 package com.Leet;
 
-import java.util.Arrays;
-
 public class ContainerWithMostWater {
 
 
