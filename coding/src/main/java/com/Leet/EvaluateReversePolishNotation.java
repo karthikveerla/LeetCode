@@ -34,7 +34,7 @@ public class EvaluateReversePolishNotation {
     }
 
     public static void main(String[] args) {
-        String[] s = {"2","1","+","3","*"};
+        String[] s = {"2","1","+","2","*"};
         System.out.println(findValue(s));
     }
 }
