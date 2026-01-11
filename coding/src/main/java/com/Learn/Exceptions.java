@@ -24,8 +24,22 @@ public class Exceptions {
         }
     }
 
-    public static void main(String[] args) {
-        checkedException();
-        uncheckedExceptions();
+    public static void Arithmatic() throws ArithmeticException{
+        int a = 1;
+        int b = 0;
+
+        System.out.println(a/b);
+       
+    }
+
+    public static void main(String[] args){
+        // checkedException();
+        // uncheckedExceptions();
+        try{
+        Arithmatic();
+        }
+        finally{
+            System.out.println("finally");
+        }
     }
 }
