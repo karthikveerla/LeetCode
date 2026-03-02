@@ -42,9 +42,9 @@ public class ThreeSum {
     }
 
     public static void main(String[] args) {
-        int[] nums = {-1,0,1,2,-1,-4};
-        Arrays.sort(nums);
-        List<List<Integer>> res = ThSum(nums);
+        int[] numbers = {-1,0,1,2,-1,-4};
+        Arrays.sort(numbers);
+        List<List<Integer>> res = ThSum(numbers);
         System.out.println(res);
     }
 }
