@@ -33,7 +33,7 @@ public class PermutationInString {
 
     public static void main(String[] args) {
         String s1 = "xyx";
-        String s2 = "acbyzxgrtyx";
+        String s2 = "abyzxgrtyx";
         System.out.println(findPermutation(s1,s2));
     }
 }
