@@ -21,8 +21,21 @@ public class Palindrome {
         }
         return true;
     }
+
+    public static boolean isValidPalindrome(int k){
+        int rev = 0, p =k;
+        while(k>0){
+            int r = k%10;
+            rev = rev*10+r;
+            k=k/10;
+        }
+        return rev == p;
+    }
+
     public static void main(String[] args) {
         String s = "welcome";
-        System.out.println(isPalindrome(s));
+        int k = 4245;
+        System.out.println(isValidPalindrome(k));
+        System.out.println(isPalindrome(String.valueOf(k)));
     }
 }
