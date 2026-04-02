@@ -3,7 +3,7 @@ import java.util.*;
 
 public class DuplicatesList {
     public static void main(String[] args) {
-        List<String> l =Arrays.asList("apple","bat","cat","dog","cat","bat");
+        List<String> l =Arrays.asList("appl","bat","cat","dog","cat","bat");
         Set<String> seen = new HashSet<>();
         Set<String> dup = new HashSet<>();
         for(String li:l){
